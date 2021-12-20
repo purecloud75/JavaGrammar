@@ -29,8 +29,8 @@ public class Array_practice {
                 }
 
             } else if (selectNo == 3) {
+                int j = 0;
                 for (int dex : scores) {
-                    int j = 0;
                     System.out.println("scores[" + j + "]> " + dex);
                     j++;
                 }
