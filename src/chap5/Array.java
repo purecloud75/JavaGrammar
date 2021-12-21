@@ -6,7 +6,7 @@ public class Array {
         scores = new int[]{83, 90, 87};
         //int 타입의 배열 객체를 힙 영영에 생성하여, 그 주소값을 스택 영역에 생성된 배열 변수에 리턴해주겠다는 의미.
         int sum1 = 0;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < scores.length; i++) {
             sum1 += scores[i];
         }
         System.out.println("총 합 : " + sum1);
@@ -15,7 +15,7 @@ public class Array {
         System.out.println("총 합 : " + sum2);
 
 
-        double[] arr1 = new double[3]; //3은 배열의 길이로, 매열이 저장할 수 있는 값을 개수를 의미.
+        double[] arr1 = new double[3]; //3은 배열의 길이로, 배열이 저장할 수 있는 값의 개수를 의미.
         arr1[0] = 83;
         arr1[1] = 90;
         arr1[2] = 87;
@@ -26,7 +26,7 @@ public class Array {
 
     public static int add(int[] anything) {  //int 타입의 이 함수의 로컬 배열변수인 anything 에, scores 가 복사된 것이다.
         int sum = 0;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < anything.length; i++) {
             sum += anything[i];
         }
         return sum;
