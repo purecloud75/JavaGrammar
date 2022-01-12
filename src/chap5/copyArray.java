@@ -43,7 +43,8 @@ public class copyArray {
         int[] numArray = new int[3];
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < numArray.length; i++) {
-            numArray[i] = Integer.parseInt(scanner.nextLine());  //scanner.nextLine()은 엔터치기 직전까지의 문자열을 받음.
+            /*numArray[i] = Integer.parseInt(scanner.nextLine());*/  //scanner.nextLine()은 엔터치기 직전까지의 문자열을 받음.
+            numArray[i] = scanner.nextInt();
         }
         for (int i = 0; i < numArray.length; i++) {
             System.out.print(numArray[i] + ", ");
