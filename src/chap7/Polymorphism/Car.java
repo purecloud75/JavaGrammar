@@ -19,6 +19,9 @@ public class Car {
         if (frontRightTire.roll() == false) {
             stop();
             return 2;
+            //Tire 라는 부모클래스타입인 frontRightTire 라는 참조타입변수에 자식객체인 KumhoTire 를 할당하여 자동타입변환이 발생함
+            //그래서 부모타입인 Tire 의 roll()에 접근하지만, 예외적으로 할당된 자식클래스에 재정의된 메소드가 있으므로 그것을 호출한다.
+            //각 객체마다 따로있는 평행세계의 accumulatedRotation 이므로 바퀴마다 다 다르다. 자식객체 들어오면 초기화 x -> 0이 들어있다
         }
         if (backLeftTire.roll() == false) {
             stop();

@@ -19,7 +19,7 @@ public class Television implements RemoteControl{
     @Override
     public void setVolume(int volume) {
         if (volume > MAX_VOLUME) {
-            this.volume = RemoteControl.MAX_VOLUME; //상수는 static final 이기에 static 성질에 의해 객체없이 바로 접근가능.
+            this.volume = RemoteControl.MAX_VOLUME; // 인터페이스는 객체를 생성할 수 없는 아이라서, 직접 접근이 가능함.
         } else if (volume < MIN_VOLUME) {
             this.volume = RemoteControl.MIN_VOLUME;
         } else {
