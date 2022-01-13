@@ -17,8 +17,8 @@ public class Example {
 
         //Singleton obj1 = new Singleton(); 싱글톤 클래스에서 생성자 앞에 private 을 붙여주었다. 이 곳은 걔 입장에서는 외부이므로
         //Singleton obj2 = new Singleton(); 외부에서 new 를 통해 생성자를 사용할 수가 없다. 즉 이런 방식으로 객체 생성 불가!
-        Singleton obj1 = Singleton.getInstance(); // getIn 이 메소드는 정적(static) 메소드이므로 클래스이름.메소드() 바로접근!
-        Singleton obj2 = Singleton.getInstance(); // 두 참조변수에는 단 하나의 객체 주소값이 할당되어 있다.
+        Company obj1 = Company.getInstance(); // getIn 이 메소드는 정적(static) 메소드이므로 클래스이름.메소드() 바로접근!
+        Company obj2 = Company.getInstance(); // 두 참조변수에는 단 하나의 객체 주소값이 할당되어 있다.
 
         if (obj1 == obj2) {
             System.out.println("같은 싱글톤 객체입니다.");
