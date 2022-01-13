@@ -18,6 +18,10 @@ public class Person {
         this.age = age;
     }
 
+    public Person getPerson() {
+        return this;
+    }
+
     //method
     void printAll() {
         System.out.println("키가 "+height+"이고 몸무게가 "+weight+"킬로인 "+sex+"이 있습니다. 이름은 "+name+"이고 나이는"+age);
