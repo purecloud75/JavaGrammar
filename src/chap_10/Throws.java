@@ -1,4 +1,4 @@
-package chap10;
+package chap_10;
 
 public class Throws {
     public static void main(String[] args){
