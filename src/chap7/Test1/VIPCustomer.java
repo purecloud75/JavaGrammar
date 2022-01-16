@@ -17,7 +17,7 @@ public class VIPCustomer extends Customer {
         bonusRatio = 0.05;
         salesRatio = 0.1;
         customerGrade = "VIP";
-        System.out.println("하위클래스의 생성자가 호출됨");
+        System.out.println("하위VIP클래스의 생성자가 호출됨");
     }
 
     @Override
@@ -25,5 +25,9 @@ public class VIPCustomer extends Customer {
         bonusPoint += price * bonusRatio;
         price -= (int) (price * salesRatio);
         return price;
+    }
+
+    public void printDownCasting() {
+        System.out.println("Shin 은 원래는 VIPCustomer 였기에 강제타입변환(다운캐스팅)이 잘 이루어졌습니다.");
     }
 }

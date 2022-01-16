@@ -1,4 +1,4 @@
-package chap8.test;
+package chap8.Test1;
 
 public class MySqlDao implements DataAccessObject {
 

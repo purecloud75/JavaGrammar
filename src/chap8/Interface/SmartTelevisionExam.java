@@ -6,7 +6,9 @@ public class SmartTelevisionExam {
         SmartTelevision tv = new SmartTelevision();
 
         RemoteControl rc = tv;
+        //얘는 3개의 메소드에 접근가능
         Searchable se = tv;
+        //얘는 search() 하나만 접근가능
 
         se.search("Google");
 
