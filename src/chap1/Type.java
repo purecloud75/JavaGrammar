@@ -1,3 +1,5 @@
+package chap1;
+
 public class Type {
     public static void main(String[] args) {
         int var1 = 0b1011;  //2진수앞에 0b를 붙이면 이 값이 10진수값, 즉 우리가 아는 정수값으로 바뀌어짐. 굳굳

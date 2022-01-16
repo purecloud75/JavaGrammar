@@ -1,3 +1,5 @@
+package chap1;
+
 import java.util.Scanner;  //문자열 입력받고자 스캐너 쓸때 이 라인 까먹지말고 꼭 집어넣어!
 
 public class IO {

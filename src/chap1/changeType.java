@@ -1,4 +1,6 @@
-public class changeType {
+package chap1;
+
+class changeType {
     public static void main(String[] args) {
         byte byteValue = 10;
         int intValue = byteValue; //작은타입에서 큰 타입으로 그 변수값을 할당하면 자동 타입변환이 된다.

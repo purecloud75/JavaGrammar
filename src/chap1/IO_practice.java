@@ -1,3 +1,5 @@
+package chap1;
+
 import java.util.Scanner;
 
 public class IO_practice {

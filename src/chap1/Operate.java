@@ -1,3 +1,5 @@
+package chap1;
+
 public class Operate {
     public static void main(String[] args) {
         int x = 10;
